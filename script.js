@@ -3,9 +3,12 @@ let currentImage = 1;
 const totalImages = 11;
 const galleryImage = document.getElementById('galleryImage');
 
-function updateGalleryImage() {
+function updateGalleryImage() { //Update image gallery to show the correct image
   galleryImage.src = `media/${currentImage}.png`;
   galleryImage.alt = `Travel photo ${currentImage}`;
+  
+  //Update text to show which image the user is on
+  document.getElementById('currentImageNumber').textContent = `Image ${currentImage}`;
 }
 
 function nextImage() {
