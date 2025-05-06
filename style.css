@@ -45,6 +45,7 @@ header h1 {
 .nav-menu li a:hover {
   background-color: rgb(235, 80, 70);
 }
+
 .nav-menu li a.active {
   background-color: rgb(185, 45, 30);
 }
@@ -87,7 +88,7 @@ footer {
   padding: 20px 0;
 }
 
-/* Responsive layout */
+/* Responsive layout: Desktop and larger tablets */
 @media (min-width: 768px) {
   .preview {
     flex-direction: row;
@@ -100,43 +101,71 @@ footer {
   }
 
   .gallery {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
-  padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding-bottom: 200px;
   }
 
-.gallery img {
-  max-width: 600px;
-  height: auto;
-  max-height: 700px;
-  margin-bottom: 20px;
-  border-radius: 10px;
+  .gallery img {
+    max-width: 600px;
+    height: auto;
+    max-height: 700px;
+    margin-bottom: 20px;
+    border-radius: 10px;
   }
 
-.gallery-controls {
-  position: fixed;
-  bottom: 80px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 20px;
-  z-index: 10;
+  .gallery-controls {
+    position: fixed;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    z-index: 10;
   }
 
-.gallery-controls button {
-  padding: 10px 20px;
-  font-size: 1rem;
-  background-color: rgb(185, 45, 30);
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  .gallery-controls button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: rgb(185, 45, 30);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
   }
 
-.gallery-controls button:hover {
-  background-color: rgb(235, 80, 70);
+  .gallery-controls button:hover {
+    background-color: rgb(235, 80, 70);
+  }
+
+  #imageCaption {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+}
+
+/* Responsive layout: Mobile devices */
+@media (max-width: 767px) {
+  .gallery img {
+    max-width: 90vw;
+    max-height: 60vh;
+  }
+
+  .gallery-controls {
+    bottom: 40px;
+    gap: 10px;
+  }
+
+  .gallery-controls button {
+    padding: 8px 14px;
+    font-size: 0.9rem;
+  }
+
+  #imageCaption {
+    font-size: 0.9rem;
+    padding: 0 10px;
   }
 }
