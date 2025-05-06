@@ -37,12 +37,13 @@ header h1 {
   gap: 20px;
 }
 
-/*Style for <li> and <a> within menu */
 .menu li a {
+  background-color: rgb(185, 45, 30);
   color: #fff;
   text-decoration: none;
   padding: 8px 16px;
   border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 
 .menu li a:hover {
