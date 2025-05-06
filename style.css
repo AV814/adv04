@@ -1,4 +1,4 @@
-/* Reset default margin and padding */
+/* Set default margin and default padding to 0 */
 * {
   margin: 0;
   padding: 0;
@@ -7,27 +7,29 @@
 
 /* Body/default style */
 body {
-  font-family: Arial, sans-serif, Helvetica;
-  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(35, 35, 40);
-  color: #f1f1f1;
+  color: rgb(235, 235, 235);
   text-align: center;
+  line-height: 1.5;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/* Header styling */
+/* Set style for the header */
 header {
   background-color: rgb(20, 20, 25);
   padding: 20px 0;
 }
 
+/* h1 within header will have a 10px bottom margin */
 header h1 {
   margin-bottom: 10px;
 }
 
-.nav-menu {
+/* Style for .menu */
+.menu {
   list-style: none;
   display: flex;
   justify-content: center;
@@ -35,22 +37,23 @@ header h1 {
   gap: 20px;
 }
 
-.nav-menu li a {
+/*Style for <li> and <a> within menu */
+.menu li a {
   color: #fff;
   text-decoration: none;
   padding: 8px 16px;
   border-radius: 4px;
 }
 
-.nav-menu li a:hover {
+.menu li a:hover {
   background-color: rgb(235, 80, 70);
 }
 
-.nav-menu li a.active {
+.menu li a.active {
   background-color: rgb(185, 45, 30);
 }
 
-/* Main content */
+/* Style within the main content */
 main {
   flex: 1;
   padding: 40px 20px;
@@ -82,7 +85,7 @@ button:hover {
   gap: 30px;
 }
 
-/* Footer */
+/* Format for the bottom of the page */
 footer {
   background-color: rgb(20, 20, 25);
   padding: 20px 0;
