@@ -28,22 +28,27 @@ document.addEventListener('keydown', (event) => {
 
 document.addEventListener('keydown', (event) => {
   switch (event.key) {
-    case '1': //Bring user to the HOME page
+    case '1': // Home
       window.location.href = 'index.html';
       break;
-    case '2': //Bring user to the ABOUT page
+    case '2': // About
       window.location.href = 'about.html';
       break;
-    case '3': //Bring user to the GALLERY page
+    case '3': // Gallery
       window.location.href = 'gallery.html';
       break;
-    case '4': //Bring user to the LINK page
+    case '4': // Links
       window.location.href = 'destinations.html';
       break;
-    case '5': //Bring user to the CONTACT page
+    case '5': // Contact
       window.location.href = 'contact.html';
       break;
-    default:
+    case 'r': // Random image (only in gallery)
+      const randomImage = Math.floor(Math.random() * totalImages) + 1; // Generates a random number between 1 and totalImages
+      currentImage = randomImage;  // Set the random image as the current image
+      updateGalleryImage(); // Update the image displayed
       break;
+    default:
+      break; // No action for other keys
   }
 });
