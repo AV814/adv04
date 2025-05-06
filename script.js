@@ -4,7 +4,7 @@ const totalImages = 5; // Change this to match how many images you have
 const galleryImage = document.getElementById('galleryImage');
 
 function updateGalleryImage() {
-  galleryImage.src = `${currentImage}.png`;
+  galleryImage.src = `media/${currentImage}.png`;
   galleryImage.alt = `Drumming photo ${currentImage}`;
 }
 
