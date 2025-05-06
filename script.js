@@ -11,13 +11,6 @@ function updateGalleryImage() { //Update image gallery to show the correct image
   document.getElementById('currentImageNumber').textContent = `${currentImage}`;
 }
 
-/* Center image number text */
-#currentImageNumber {
-  margin-top: 10px; /* Adjust this value to control the vertical position */
-  font-size: 1rem;
-  color: #fff;
-}
-
 function nextImage() {
   currentImage = currentImage >= totalImages ? 1 : currentImage + 1;
   updateGalleryImage();
