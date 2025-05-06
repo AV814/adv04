@@ -25,3 +25,25 @@ document.addEventListener('keydown', (event) => {
     prevImage(); // Left arrow = previous image
   }
 });
+
+document.addEventListener('keydown', (event) => {
+  switch (event.key) {
+    case '1': //Bring user to the HOME page
+      window.location.href = 'index.html';
+      break;
+    case '2': //Bring user to the ABOUT page
+      window.location.href = 'about.html';
+      break;
+    case '3': //Bring user to the GALLERY page
+      window.location.href = 'gallery.html';
+      break;
+    case '4': //Bring user to the LINK page
+      window.location.href = 'destinations.html';
+      break;
+    case '5': //Bring user to the CONTACT page
+      window.location.href = 'contact.html';
+      break;
+    default:
+      break;
+  }
+});
