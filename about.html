@@ -6,6 +6,23 @@
     <title>Alex V Travelling - About</title>
     <link rel="stylesheet" href="style.css" />
     <script defer src="script.js"></script>
+    <style>
+    main img {
+      max-width: 300px;
+      max-height: 300px;
+      width: 100%;
+      height: auto;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 600px) {
+      main img {
+        max-width: 90vw;
+        max-height: 60vh;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -29,8 +46,8 @@
       "Man-cations", where we do a different historical trip every summer. I would say this is the main thing that has gotten me to love doing this sort of thing often.</p>
     </section>
 
-    <img src="pictures/self1.png" alt="Selfie Photo" />
-    <img src="pictures/self2.png" alt="Group Photo" />
+    <img id="img" src="pictures/self1.png" alt="Selfie Photo" />
+    <img id="img" src="pictures/self2.png" alt="Group Photo" />
   </main>
 
   <footer>
