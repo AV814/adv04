@@ -58,7 +58,7 @@ main {
 }
 
 button {
-  background-color: #e63946;
+  background-color: rgb(225, 45, 30);
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -68,7 +68,7 @@ button {
 }
 
 button:hover {
-  background-color: #d62828;
+  background-color: rbg(235, 80, 70);
 }
 
 /* Article previews */
