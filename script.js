@@ -5,10 +5,10 @@ const galleryImage = document.getElementById('galleryImage');
 
 function updateGalleryImage() { //Update image gallery to show the correct image
   galleryImage.src = `media/${currentImage}.png`;
-  galleryImage.alt = `Travel photo ${currentImage}`;
+  galleryImage.alt = `Travel Photo ${currentImage}`;
   
   //Update text to show which image the user is on
-  document.getElementById('currentImageNumber').textContent = `Image ${currentImage}`;
+  document.getElementById('currentImageNumber').textContent = `${currentImage}`;
 }
 
 function nextImage() {
