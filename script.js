@@ -1,11 +1,11 @@
-// Gallery logic
+//Javascript Code for the Photo Gallery
 let currentImage = 1;
-const totalImages = 5; // Change this to match how many images you have
+const totalImages = 5;
 const galleryImage = document.getElementById('galleryImage');
 
 function updateGalleryImage() {
   galleryImage.src = `media/${currentImage}.png`;
-  galleryImage.alt = `Drumming photo ${currentImage}`;
+  galleryImage.alt = `Travel photo ${currentImage}`;
 }
 
 function nextImage() {
