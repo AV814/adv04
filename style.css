@@ -96,4 +96,35 @@ footer {
   .preview article {
     max-width: 300px;
   }
+
+  .gallery {
+  padding: 40px 20px;
+  }
+
+.gallery img {
+  max-width: 90%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  }
+
+.gallery-controls {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  }
+
+.gallery-controls button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #e63946;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+
+.gallery-controls button:hover {
+  background-color: #d62828;
+  }
 }
