@@ -78,7 +78,7 @@ button:hover {
   background-color: rgb(235, 80, 70);
 }
 
-/* Article previews */
+/* Look for article/text areas */
 .preview {
   display: flex;
   flex-direction: column;
@@ -92,7 +92,7 @@ footer {
   padding: 20px 0;
 }
 
-/* Responsive layout: Desktop and larger tablets */
+/* Format for desktop */
 @media (min-width: 768px) {
   .preview {
     flex-direction: row;
@@ -151,7 +151,7 @@ footer {
   }
 }
 
-/* Responsive layout: Mobile devices */
+/* Format for mobile devices */
 @media (max-width: 767px) {
   .gallery img {
     max-width: 90vw;
@@ -166,10 +166,5 @@ footer {
   .gallery-controls button {
     padding: 8px 14px;
     font-size: 0.9rem;
-  }
-
-  #imageCaption {
-    font-size: 0.9rem;
-    padding: 0 10px;
   }
 }
