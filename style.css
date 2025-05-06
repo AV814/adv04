@@ -104,6 +104,7 @@ footer {
     max-width: 200px;
   }
 
+  /* Image gallery format */
   .gallery {
     display: flex;
     flex-direction: column;
@@ -121,6 +122,7 @@ footer {
     border-radius: 10px;
   }
 
+  /* Format for the button controls in the image gallery */
   .gallery-controls {
     position: fixed;
     bottom: 80px;
@@ -143,11 +145,6 @@ footer {
 
   .gallery-controls button:hover {
     background-color: rgb(235, 80, 70);
-  }
-
-  #imageCaption {
-    margin-top: 10px;
-    font-size: 1rem;
   }
 }
 
