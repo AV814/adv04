@@ -17,3 +17,11 @@ function prevImage() {
   currentImage = currentImage <= 1 ? totalImages : currentImage - 1;
   updateGalleryImage();
 }
+
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'ArrowRight') {
+    nextImage(); // Right arrow = next image
+  } else if (event.key === 'ArrowLeft') {
+    prevImage(); // Left arrow = previous image
+  }
+});
