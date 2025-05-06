@@ -9,8 +9,8 @@
 body {
   font-family: Arial, sans-serif, Helvetica;
   line-height: 1.5;
-  background-color: rbg(15, 15, 20);
-  color: #fff;
+  background-color: rgb(35, 35, 40);
+  color: #f1f1f1;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -19,7 +19,7 @@ body {
 
 /* Header styling */
 header {
-  background-color: rgb(10, 10, 15);
+  background-color: rgb(20, 20, 25);
   padding: 20px 0;
 }
 
@@ -42,9 +42,11 @@ header h1 {
   border-radius: 4px;
 }
 
-.nav-menu li a:hover,
+.nav-menu li a:hover {
+  background-color: rgb(235, 80, 70);
+}
 .nav-menu li a.active {
-  background-color: #e63946;
+  background-color: rgb(185, 45, 30);
 }
 
 /* Main content */
@@ -58,7 +60,7 @@ main {
 }
 
 button {
-  background-color: rgb(225, 45, 30);
+  background-color: rgb(185, 45, 30);
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -68,7 +70,7 @@ button {
 }
 
 button:hover {
-  background-color: rbg(235, 80, 70);
+  background-color: rgb(235, 80, 70);
 }
 
 /* Article previews */
@@ -81,7 +83,7 @@ button:hover {
 
 /* Footer */
 footer {
-  background-color: rgb(10, 10, 15);
+  background-color: rgb(20, 20, 25);
   padding: 20px 0;
 }
 
@@ -117,7 +119,7 @@ footer {
 .gallery-controls button {
   padding: 10px 20px;
   font-size: 1rem;
-  background-color: rgb(225, 45, 30);
+  background-color: rgb(185, 45, 30);
   color: white;
   border: none;
   border-radius: 5px;
@@ -125,6 +127,6 @@ footer {
   }
 
 .gallery-controls button:hover {
-  background-color: rbg(235, 80, 70);
+  background-color: rgb(235, 80, 70);
   }
 }
