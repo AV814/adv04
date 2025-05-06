@@ -94,7 +94,7 @@ footer {
   }
 
   .preview article {
-    max-width: 300px;
+    max-width: 200px;
   }
 
   .gallery {
@@ -102,7 +102,7 @@ footer {
   }
 
 .gallery img {
-  max-width: 350px;
+  max-width: 50px;
   height: auto;
   margin-bottom: 20px;
   border-radius: 10px;
