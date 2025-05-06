@@ -20,9 +20,9 @@ function prevImage() {
 
 document.addEventListener('keydown', (event) => {
   if (event.key === 'ArrowRight') {
-    nextImage(); // Right arrow = next image
+    nextImage(); //Go forwards an image in the gallery
   } else if (event.key === 'ArrowLeft') {
-    prevImage(); // Left arrow = previous image
+    prevImage(); //Go back an image in the gallery
   }
 });
 
