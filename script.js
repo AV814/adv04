@@ -1,6 +1,6 @@
 //Javascript Code for the Photo Gallery
 let currentImage = 1;
-const totalImages = 5;
+const totalImages = 11;
 const galleryImage = document.getElementById('galleryImage');
 
 function updateGalleryImage() {
