@@ -9,7 +9,7 @@
 body {
   font-family: Arial, sans-serif, Helvetica;
   line-height: 1.5;
-  background-color: rbg(20, 20, 25);
+  background-color: rbg(15, 15, 20);
   color: #fff;
   text-align: center;
   display: flex;
