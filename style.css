@@ -105,19 +105,20 @@ footer {
   align-items: center;
   justify-content: center;
   flex: 1;
-  padding-bottom: 80px;
+  padding-bottom: 200px;
   }
 
 .gallery img {
-  max-width: 650px;
+  max-width: 600px;
   height: auto;
+  max-height: 700px;
   margin-bottom: 20px;
   border-radius: 10px;
   }
 
 .gallery-controls {
   position: fixed;
-  bottom: 20px;
+  bottom: 80px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
