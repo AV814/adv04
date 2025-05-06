@@ -165,4 +165,11 @@ footer {
     padding: 8px 14px;
     font-size: 0.9rem;
   }
+
+  /* Center image number text */
+#currentImageNumber {
+  margin-top: 10px; /* Adjust this value to control the vertical position */
+  font-size: 1rem;
+  color: #fff;
+}
 }
