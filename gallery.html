@@ -1,5 +1,39 @@
 <!DOCTYPE html>
-<html>
-  <title>Alex's Photo Gallery</title>
-  <header>Photo Gallery</header>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rhythm & Beats - Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Rhythm & Beats</h1>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="lessons.html">Lessons</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="gallery">
+      <h2>Drum Photo Gallery</h2>
+      <img id="galleryImage" src="1.png" alt="Drumming photo" />
+      <div class="gallery-controls">
+        <button onclick="prevImage()">&#8592; Prev</button>
+        <button onclick="nextImage()">Next &#8594;</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Rhythm & Beats | All Rights Reserved</p>
+  </footer>
+</body>
 </html>
